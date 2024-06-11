@@ -1,0 +1,66 @@
+﻿Test Plan Document
+
+
+Project: Automation Exercise(selenium)
+Test Objective:
+The objective of this test plan is to verify the functionality of the login, account creation, and order placement features on the Automation Exercise website.
+Test Scope:
+This test plan covers the following scenarios:
+1. Successful login with valid credentials.
+2. Account creation with valid details.
+3. Attempted login with invalid credentials.
+4. Adding items to the cart and placing an order.
+Test Environment:
+· Browser: Google Chrome
+· Operating System: Windows 11
+· Test Framework: Pytest
+· Test Data: Provided through configuration file (input.properties)
+Test Cases:
+1. Test Case ID: TC001
+* Test Case Name: Successful Login
+* Test Steps:
+   * Open the [Project Name] website.
+   * Enter valid login credentials.
+   * Click on the login button.
+* Expected Result: User should be successfully logged in and redirected to the homepage.
+
+
+2. Test Case ID: TC002
+* Test Case Name: Account Creation
+* Test Steps:
+   * Open the [Project Name] website.
+   * Enter valid account creation details.
+   * Click on the create account button.
+* Expected Result: User account should be successfully created, and a confirmation message should be displayed.
+
+
+3. Test Case ID: TC003
+* Test Case Name: Invalid Login
+* Test Steps:
+   * Open the [Project Name] website.
+   * Enter invalid login credentials.
+   * Click on the login button.
+* Expected Result: Error message indicating invalid credentials should be displayed.
+
+
+4. Test Case ID: TC004
+* Test Case Name: Add to Cart and Place Order
+* Test Steps:
+   * Open the [Project Name] website.
+   * Log in with valid credentials.
+   * Add items to the cart.
+   * Proceed to checkout.
+   * Place the order.
+* Expected Result: Order should be successfully placed, and a confirmation message should be displayed.
+
+
+Test Execution:
+* Tests will be executed using the Pytest framework.
+* Test data will be provided through the input.properties configuration file.
+* Test results and logs will be captured for analysis.
+Risks and Assumptions:
+* Risk: Changes in the website layout or functionality may affect test execution.
+* Assumption: Test data provided in the configuration file is accurate and up-to-date.
+Test Deliverables:
+* Test Plan Document
+* Test Results Report
